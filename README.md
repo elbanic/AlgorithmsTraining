@@ -1,8 +1,9 @@
 # AlgorithmsTraining
 
-</br>This is practice the code presented in the Cracking the Coding Interview book.
+</br>This is practices the code presented in the Cracking the Coding Interview book.
 </br>You can find the book [here](http://www.crackingthecodinginterview.com).
-</br>If you have question, send an email [elbanic12@naver.com](mailto:elbanic12@naver.com)
+</br>This article is written in Java, but you can see the Scala source [here](https://github.com/elbanic/ScalaTraining).
+</br>If you have question, send an email [elbanic12@naver.com](mailto:elbanic12@naver.com).
 
 ---
 ### Appendix
