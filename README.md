@@ -1,7 +1,7 @@
 # AlgorithmsTraining
-<br>
-This is practice the code presented in the Cracking the Coding Interview book.<br>
-You can find the book [here](http://www.crackingthecodinginterview.com)<br>
+
+This is practice the code presented in the Cracking the Coding Interview book.
+You can find the book [here](http://www.crackingthecodinginterview.com)
 If you have question, send an email [elbanic12](mailto:elbanic12@naver.com)
 
 ---
