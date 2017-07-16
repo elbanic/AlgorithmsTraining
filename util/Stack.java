@@ -15,7 +15,7 @@ public class Stack<T> {
     }
 
     public T pop() {
-        if (sz==0) throw new EmptyStackException();
+        if (sz<=0) throw new EmptyStackException();
 
         T ret = top.getItem();
         top = (SLinkedNode)top.getNext();
