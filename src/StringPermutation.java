@@ -2,20 +2,20 @@ import java.util.ArrayList;
 import java.util.NoSuchElementException;
 
 /**
- * Created by 1003850 on 2017. 7. 14..
+ * Created by elbanic on 2017. 7. 14..
  */
 public class StringPermutation {
 
     String str;
-    Map m;
+    HashMap m;
 
     public StringPermutation(String str) {
         this.str = str;
-        m = new Map<Character, Integer>();
+        m = new HashMap<Character, Integer>();
         for (int i=0; i<str.length(); i++) {
             try{
                 int cnt = (int)m.get(str.charAt(i));
-                m.set(str.charAt(i), cnt+1);
+                m.put(str.charAt(i), cnt+1);
             }catch(NoSuchElementException e){
                 m.put(str.charAt(i), 1);
             }
@@ -24,11 +24,11 @@ public class StringPermutation {
 
     public boolean isStringPermutation(String target) {
 
-        Map target_m = m;
+        HashMap target_m = m;
         for (int i=0; i<target.length(); i++) {
             try{
                 int cnt = (int)target_m.get(target.charAt(i));
-                target_m.set(target.charAt(i), cnt-1);
+                target_m.put(target.charAt(i), cnt-1);
             }catch(NoSuchElementException e){
                 return false;
             }

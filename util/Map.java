@@ -3,16 +3,16 @@ import java.util.EmptyStackException;
 import java.util.NoSuchElementException;
 
 /**
- * Created by 1003850 on 2017. 7. 14..
+ * Created by elbanic on 2017. 7. 14..
  */
 public class Map<K, V> {
 
-    private ArrayList<Pair> items;
-    private int sz;
+    protected ArrayList<Pair> items;
+    protected int sz;
 
-    private class Pair<K, V> {
-        private K key;
-        private V value;
+    protected class Pair<K, V> {
+        protected K key;
+        protected V value;
         public Pair(K key, V value){
             this.key = key;
             this.value = value;
@@ -30,7 +30,7 @@ public class Map<K, V> {
         sz = 1;
     }
 
-    private int getID(K key) {
+    protected int getID(K key) {
         for (int i=0; i<sz; i++){
             if (key==items.get(i).key) return i;
         }
@@ -45,13 +45,9 @@ public class Map<K, V> {
     }
 
     public void put(K key, V value) {
-        items.add(new Pair(key, value));
-        sz++;
-    }
-
-    public void set(K key, V value) {
         int id = getID(key);
-        items.set(id, new Pair(key, value));
+        if (id==-1) { items.add(new Pair(key, value)); sz++; }
+        else { items.get(id).value = value; }
     }
 
     public void remove(K key) {

@@ -1,5 +1,5 @@
 /**
- * Created by 1003850 on 2017. 7. 14..
+ * Created by elbanic on 2017. 7. 14..
  */
 class Node<T> {
     private T item;
