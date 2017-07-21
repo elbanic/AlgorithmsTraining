@@ -11,6 +11,7 @@
 #### Simple Problem
 1. [HelloWorld](https://github.com/elbanic/AlgorithmsTraining/blob/master/src/HelloWorld.java)
 2. [StringPermutation](https://github.com/elbanic/AlgorithmsTraining/blob/master/src/StringPermutation.java)
+3. [DigitNumberAddition](https://github.com/elbanic/AlgorithmsTraining/blob/master/src/DigitNumberAddition.java)
 
 #### Data Structure
 1. [Stack](https://github.com/elbanic/AlgorithmsTraining/blob/master/util/Stack.java)
@@ -19,3 +20,4 @@
 4. [HashMap](https://github.com/elbanic/AlgorithmsTraining/blob/master/util/Map.java)
 5. [SingleLinkedList]
 6. [DoubleLinkedList]
+7. [CircularLinkedList]

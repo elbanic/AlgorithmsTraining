@@ -6,8 +6,11 @@ class Node<T> {
     public Node(T t) {
         item = t;
     }
-    T getItem() {
+    public T getItem() {
         return item;
+    }
+    public void setItem(T t) {
+        item = t;
     }
 }
 

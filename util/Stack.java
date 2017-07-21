@@ -9,7 +9,6 @@ public class Stack<T> {
     private long sz;
 
     public Stack(T t) {
-        SLinkedNode<T> prev = top;
         top = new SLinkedNode<T>(t);
         sz = 1;
     }
