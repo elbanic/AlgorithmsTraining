@@ -18,6 +18,6 @@
 2. [Queue]
 3. [Map](https://github.com/elbanic/AlgorithmsTraining/blob/master/util/Map.java)
 4. [HashMap](https://github.com/elbanic/AlgorithmsTraining/blob/master/util/Map.java)
-5. [SingleLinkedList]
+5. [SingleLinkedList](https://github.com/elbanic/AlgorithmsTraining/blob/master/util/SingleLinkedList.java)
 6. [DoubleLinkedList]
 7. [CircularLinkedList]
